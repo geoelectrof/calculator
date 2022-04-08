@@ -1,0 +1,93 @@
+.container {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    margin:auto;
+    grid-template-areas:
+    "result result result result"
+    "reset divide multiply subtract"
+    "seven eight nine add"
+    "four five six add"
+    "one two three equals"
+    "delete zero point equals" ;
+    font-size: 5rem;
+}
+
+#result {
+    grid-area: result;
+    background-color: black;
+    color: white;
+    text-align: right;
+}
+
+#reset {
+    grid-area: reset;
+}
+
+#divide {
+    grid-area: divide;
+}
+
+#multiply {
+    grid-area: multiply;
+}
+
+#subtract {
+    grid-area: subtract;
+}
+
+#add {
+    grid-area: add;
+}
+
+#seven {
+    grid-area: seven;
+}
+
+#eight {
+    grid-area: eight;
+}
+
+#nine {
+    grid-area: nine;
+}
+
+#four {
+    grid-area: four;
+}
+
+#five {
+    grid-area: five;
+}
+
+#six {
+    grid-area: six;
+}
+
+#one {
+    grid-area: one;
+}
+
+#two {
+    grid-area: two;
+}
+
+#three {
+    grid-area: three
+}
+
+#delete {
+    grid-area: delete;
+}
+
+#zero {
+    grid-area: zero;
+}
+
+#point {
+    grid-area: point;
+}
+
+#equals {
+    grid-area: equals;
+}
